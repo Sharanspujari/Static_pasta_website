@@ -32,6 +32,7 @@ function Section() {
         <button className="btn btn-danger" style={{marginTop:'15px'}}>
             Know more
         </button>
+
       </div>
         </div>
       </div>
@@ -45,22 +46,54 @@ function Section() {
         <div className="mr-2">
         <img className="img-fluid w-100 h-75 "  src="https://www.sharmispassions.com/wp-content/uploads/2012/12/FusilliPasta8-500x375.jpg" /></div>
       </div>
-      
-      <div>
-      <div className="card" style={{width: "18rem"}}>
+<div className="d-flex justify-content-center mt-2 mb-5"> <h2 className="text-danger ">Our Products</h2></div>
+    
+    <div className="d-flex flex-coloumn justify-content-around">
+
+  <div className="card " style={{width: "18rem"}}>
   <div className="card-body">
-    s
+   <img className="img-fluid w-100 h-100" src="https://emeryfoods.com/wp-content/uploads/2022/01/Macaroni-Pasta-Front.jpg"/>
   </div>
+  </div>
+
+  <div className="card " style={{width: "18rem"}}>
   <div className="card-body">
-   a
+   <img className="img-fluid w-100 h-100" src="https://www.gitsfood.com/wp-content/uploads/2022/03/Macaroni_FOP.jpg"/>
   </div>
+  </div>
+
+  <div className="card " style={{width: "18rem"}}>
   <div className="card-body">
-   d
+   <img className="img-fluid w-100 h-100" src="https://bigbachatmart.in/image/cache/catalog/ProductPic/Pic2/8901808006626-500x500.jpg" />
   </div>
-</div>
+  </div>
+
       
 
+   </div>
+
+   <div className="d-flex flex-coloumn mt-4 justify-content-around">
+    <h3 className="fs-4">ONLY VEGETARIAN
+    
+    </h3>
+    
+    <h3 className="fs-4">GRAB & GO!</h3>
+    <h3 className="fs-4 ml-4">FRESH SCHOOLTACOS</h3>
+   </div>
+
+   <div className="d-flex flex-coloumn justify-content-around">
+   <div className="d-flex justify-content-center w-auto"> <p className="text-center">Cook up this classic sauce in one pan, then toss with spaghetti for a simple midweek meal. </p></div>
+    <div className="d-flex justify-content-center"><p className="text-center"> Sit back and tuck into a big bowl of pasta alla vodka, a creamy tomato pasta with as you can guess vodka, </p></div>
+   
+   <div className="d-flex justify-content-center"> <p className="text-center"> Get the maximum flavour out of all the veg in our pasta bake by pan-frying it first. You can also freeze </p></div>
+   </div>
+    <div  className="d-flex flex-coloumn justify-content-around">
+     <h6 style={{borderBottom:"2px solid gray"}}>READ MORE</h6>
+     <h6   style={{borderBottom:"2px solid gray"}}>READ MORE</h6>
+     <h6  style={{borderBottom:"2px solid gray"}}> READ MORE</h6>
     </div>
+    <div className="d-flex justify-content-center mt-2 mb-5"> <h2 className="text-danger ">Pasta Stories</h2></div>
+   
     </>
   );
 }
