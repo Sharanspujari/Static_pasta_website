@@ -5,7 +5,7 @@ function Section2() {
    <>
 
 <div className="d-flex justify-content-center h-fit-content mt-3 mb-5"> <h2 className="text-danger ">Pasta Stories</h2></div>
-<div className="mt-4  d-flex flex-row ml-2 mr-2 justify-content-between"> 
+<div  className="mt-4   d-flex flex-row ml-2 mr-2 justify-content-between"> 
         <div className="position-relative">
         
           <img className='img-fluid w-100 h-75'    src="https://www.foodandwine.com/thmb/97PY4E6Wk95IYv1_8pDZvBEi0Uw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cream-tomato-rigatoni-FT-RECIPE1020-139fb3fa52574e8bb06f98e7fa3e4f1e.jpg"   />
@@ -30,14 +30,14 @@ function Section2() {
       <div className="d-flex justify-content-center mb-5"> <h2 className="text-danger ">Pasta videos</h2></div>
 
       <div className="mt-4  d-flex flex-row ml-2 mr-4 justify-content-between"> 
-        <div className="position-relative">
+        <div  className="embed-responsive embed-responsive-16by9">
         
-        <iframe width="700" height="315" src="https://www.youtube.com/embed/6szIKaaGVAI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe  class="embed-responsive-item" style={{height:'315px',width:'650px'}} src="https://www.youtube.com/embed/6szIKaaGVAI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         
         </div>
 
-        <div className="position-relative">
-        <iframe className='mr-4' width="650" height="315" src="https://www.youtube.com/embed/X-Z6mtWvXM4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div className="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item"  style={{height:'315px',width:'650px'}} className='' src="https://www.youtube.com/embed/X-Z6mtWvXM4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
          
         </div>
       </div>

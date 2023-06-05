@@ -16,7 +16,7 @@ function Section() {
           <div className="position-absolute top-0 mr-2  start-50 ">
         <h1 className="text-danger " style={{marginTop:'15px'}}>BamBino instant pasta</h1>
         <h1 style={{color:'white'}}>Want Something Real?</h1>
-        <p className="fw-bold">Bumbino instant nutrious pasta with tasty masala</p>
+        <p style={{color:'white'}} className="fw-bold">Bumbino instant nutrious pasta with tasty masala</p>
         <button className="btn btn-danger">
             Read more
         </button>
