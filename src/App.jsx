@@ -1,10 +1,11 @@
 import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+
 import Header from './assets/Components/Header';
 import Section from './assets/Components/Section';
+import Section2 from './assets/Components/Section2';
+import Footer from './assets/Components/Footer';
 function App() {
  
 
@@ -12,6 +13,8 @@ function App() {
     <>
     <Header/>
      <Section/>
+     <Section2/>
+     <Footer/>
     </>
   )
 }

@@ -21,7 +21,8 @@ width:50vw;
 }
 .text-danger{
   font-family:Lucida Handwriting;
-  font-size:25px;
+  font-size:20px;
+  color: white;
 }
 .pasta-1{
   height: 300px;
@@ -34,4 +35,12 @@ width:50vw;
 .pasta-3{
   height: 300px;
   margin-left: 10px;
+}
+.textwelcome{
+  font-family:Lucida Handwriting;
+  font-size:20px;
+  color: white;
+}
+.text-dark{
+  font-family:Lucida Handwriting; 
 }

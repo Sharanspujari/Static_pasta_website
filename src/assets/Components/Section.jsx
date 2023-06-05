@@ -12,7 +12,7 @@ function Section() {
       <div className="mt-4 d-flex flex-row ml-2 mr-2 justify-content-between"> 
         <div className="position-relative">
         
-          <img className="img-fluid" src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201507/yippie_story_647_070915112206.jpg?VersionId=8C_4338.AAiHwT1euWqpPp1Xl0bdSz_a&size=690:388"  className="marinoimg" />
+          <img  src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201507/yippie_story_647_070915112206.jpg?VersionId=8C_4338.AAiHwT1euWqpPp1Xl0bdSz_a&size=690:388"  className="marinoimg" />
           <div className="position-absolute top-0 mr-2  start-50 ">
         <h1 className="text-danger " style={{marginTop:'15px'}}>BamBino instant pasta</h1>
         <h1 style={{color:'white'}}>Want Something Real?</h1>
@@ -24,7 +24,7 @@ function Section() {
         </div>
 
         <div className="position-relative">
-          <img className="img-fluid" src="https://static.wixstatic.com/media/dd75c3_782c93fb1f7d40cead051fc246712786~mv2.jpg/v1/fill/w_680,h_680,al_c,q_85/dd75c3_782c93fb1f7d40cead051fc246712786~mv2.jpg" className="pepimg" />
+          <img  src="https://static.wixstatic.com/media/dd75c3_782c93fb1f7d40cead051fc246712786~mv2.jpg/v1/fill/w_680,h_680,al_c,q_85/dd75c3_782c93fb1f7d40cead051fc246712786~mv2.jpg" className="pepimg" />
           <div className="position-absolute top-0 mr-2  start-10" style={{marginLeft:'15px',marginTop:'15px'}}>
         <h1 className="text-danger ">BamBino instant pasta</h1>
         <h1 style={{color:'white'}}>Bambino Macaroni Pep Elbows</h1>
@@ -92,8 +92,11 @@ function Section() {
      <h6   style={{borderBottom:"2px solid gray"}}>READ MORE</h6>
      <h6  style={{borderBottom:"2px solid gray"}}> READ MORE</h6>
     </div>
-    <div className="d-flex justify-content-center mt-2 mb-5"> <h2 className="text-danger ">Pasta Stories</h2></div>
-   
+    
+    <div>
+      
+    </div>
+  
     </>
   );
 }
