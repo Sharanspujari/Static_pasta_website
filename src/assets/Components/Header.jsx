@@ -5,7 +5,7 @@ import { faSearch ,} from "@fortawesome/free-solid-svg-icons";
 import { ic_question_answer } from 'react-icons-kit/md/ic_question_answer'
 import { Icon } from 'react-icons-kit';
 import { whatsapp } from 'react-icons-kit/fa/whatsapp';
-import {Navbar,Nav} from "react-bootstrap/Navbar";
+import Navbar from "react-bootstrap/Navbar";
 import {
   FaFacebook,
   FaTwitter,
@@ -15,7 +15,6 @@ import {
  
 } from "react-icons/fa";
 
-
 import { Col } from "react-bootstrap";
 
 function Header() {
@@ -23,9 +22,7 @@ function Header() {
     <>
     
     <Navbar className="d-flex  expand-lg justify-content-between ml-3">
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="basic-navbar-nav">
-    <Nav className="mr-auto">
+    
       <div className="d-flex">
         <Col>
           <FaFacebook size={22} />
@@ -43,8 +40,7 @@ function Header() {
           <FaPinterest size={22} />
         </Col>
       </div>
-      </Nav>  
-      </Navbar.Collapse>
+
       <div>
       <img
         className="logoimg"
